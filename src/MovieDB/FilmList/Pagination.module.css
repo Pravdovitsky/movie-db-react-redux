@@ -1,0 +1,35 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination > li {
+    display: inline;
+    border: 2px solid #999a9f;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+
+.pagination > li:hover {
+    border: 2px solid #484848;
+}
+
+.pagination > li > a {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active {
+    color: cadetblue;
+    border: 2px solid cadetblue;
+}
+
+@media (max-width: 430px) {
+    .pagination {
+        padding: 0;
+    }
+}

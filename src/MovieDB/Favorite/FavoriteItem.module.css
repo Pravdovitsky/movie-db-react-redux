@@ -1,0 +1,57 @@
+.style {
+    display: flex;
+}
+
+.poster {
+    width: 342px;
+    height: 513px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 5px rgb(184, 183, 183);
+    margin: 20px;
+}
+
+.info {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Courier New", serif;
+    color: #313131;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 3px;
+    border: 2px solid #313131;
+    border-radius: 5px;
+    font-family: "Courier New", serif;
+    font-size: 20px;
+    color: #313131;
+    cursor: pointer;
+}
+
+.overview {
+    font-family: "Courier New", serif;
+    font-size: 20px;
+    color: #313131;
+}
+
+@media (max-width: 430px) {
+    .style {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

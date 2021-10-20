@@ -1,0 +1,8 @@
+.item {
+    width: 342px;
+    height: 513px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 5px rgb(184, 183, 183);
+    cursor: pointer
+}
